@@ -1,0 +1,176 @@
+/** COMPILED FROM SCSS SOURCE. DO NOT EDIT DIRECTLY */
+
+// 
+// SCSS SOURCE FILE - comment above will be rendered to css file - please
+//	disregard it and only edit this file.
+//
+
+// the vars
+@import "_mm_vars";
+
+///////////////////////////////////
+// body
+///////////////////////////////////
+
+html, body { }
+
+///////////////////////////////////
+// mobile, tablet test and disable parallax (jquery tests for this)
+///////////////////////////////////
+
+#isSmall { visibility: hidden; float: none; }
+#isMedium { visibility: hidden; float: left; }
+#isLarge { visibility: hidden; float: none; }
+
+///////////////////////////////////
+// top bar
+///////////////////////////////////
+
+.top {
+	
+	.sponsorLogo {
+		width: 200px;
+		height: 200px;
+	}
+}
+
+///////////////////////////////////
+// large chapter images
+///////////////////////////////////
+
+
+
+///////////////////////////////////
+// article content
+///////////////////////////////////
+
+// Top Hero section
+#hero {
+
+	min-height: 850px;
+
+	.left_side {
+
+		.title {
+			font-size: 4.5em;
+		}
+	}
+
+	.right_side {
+
+		.title {
+			font-size: 6em;
+		}
+	}
+}
+
+.question_container {
+	min-height: 600px;
+}
+
+.question_header {
+
+	.index {
+		width: 300px;
+
+		.question {
+			font-size: 3em;
+		}
+
+		.number {
+			font-size: 5em;
+		}
+	}
+
+	.question_text {
+		font-size: 2.2em;
+		padding: 40px 30px;
+	}
+}
+
+.answers_container {
+
+	.answer_wrap {
+
+		.to_other {
+			transform: none;
+			top: 30px;
+		}
+
+		.answer_title {
+			font-size: 36px;
+			width: 275px;
+			height: 275px;
+		}
+
+		.listings_container {
+
+			&.widen {
+				margin: 0 20px;
+			}
+
+			h2 {
+				font-size: 28px;
+			}
+		}
+	}
+
+	.listing_detail_container {
+
+		.listing_detail {
+			width: 90%;
+		}
+		
+		.listing_image {
+			min-width: 250px;
+			max-width: 500px;
+		}
+
+		h2 {
+			font-size: 32px;
+		}
+
+		.listing_info {
+			font-size: 15px;
+		}
+	}
+}
+
+
+
+///////////////////////////////////
+// featured content
+///////////////////////////////////
+
+#cCTA {
+	.slogan {
+		height: 100px;
+	}
+}
+
+
+///////////////////////////////////
+// footer
+///////////////////////////////////
+
+.footer {
+	
+	.alsoLikeLinkWrap {
+		
+		.linkWrapper {
+			padding-bottom: 14%;
+			margin: 0 5px;
+		}
+		
+		.link {			
+			.linkTitleWrapper {
+				padding: 5px 10px;
+				
+				.linkTitle {
+					font-size: 14px;
+					line-height: 18px;
+				}
+			}
+		}
+	}
+}	

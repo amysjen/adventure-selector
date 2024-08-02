@@ -1,0 +1,69 @@
+/** COMPILED FROM SCSS SOURCE. DO NOT EDIT DIRECTLY */
+#isSmall {
+  visibility: hidden;
+  float: none; }
+
+#isMedium {
+  visibility: hidden;
+  float: left; }
+
+#isLarge {
+  visibility: hidden;
+  float: none; }
+
+.top .sponsorLogo {
+  width: 200px;
+  height: 200px; }
+
+#hero {
+  min-height: 850px; }
+  #hero .left_side .title {
+    font-size: 4.5em; }
+  #hero .right_side .title {
+    font-size: 6em; }
+
+.question_container {
+  min-height: 600px; }
+
+.question_header .index {
+  width: 300px; }
+  .question_header .index .question {
+    font-size: 3em; }
+  .question_header .index .number {
+    font-size: 5em; }
+.question_header .question_text {
+  font-size: 2.2em;
+  padding: 40px 30px; }
+
+.answers_container .answer_wrap .to_other {
+  transform: none;
+  top: 30px; }
+.answers_container .answer_wrap .answer_title {
+  font-size: 36px;
+  width: 275px;
+  height: 275px; }
+.answers_container .answer_wrap .listings_container.widen {
+  margin: 0 20px; }
+.answers_container .answer_wrap .listings_container h2 {
+  font-size: 28px; }
+.answers_container .listing_detail_container .listing_detail {
+  width: 90%; }
+.answers_container .listing_detail_container .listing_image {
+  min-width: 250px;
+  max-width: 500px; }
+.answers_container .listing_detail_container h2 {
+  font-size: 32px; }
+.answers_container .listing_detail_container .listing_info {
+  font-size: 15px; }
+
+#cCTA .slogan {
+  height: 100px; }
+
+.footer .alsoLikeLinkWrap .linkWrapper {
+  padding-bottom: 14%;
+  margin: 0 5px; }
+.footer .alsoLikeLinkWrap .link .linkTitleWrapper {
+  padding: 5px 10px; }
+  .footer .alsoLikeLinkWrap .link .linkTitleWrapper .linkTitle {
+    font-size: 14px;
+    line-height: 18px; }

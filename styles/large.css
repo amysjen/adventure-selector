@@ -1,0 +1,34 @@
+/** COMPILED FROM SCSS SOURCE. DO NOT EDIT DIRECTLY */
+#isSmall {
+  visibility: hidden;
+  float: none; }
+
+#isMedium {
+  visibility: hidden;
+  float: none; }
+
+#isLarge {
+  visibility: hidden;
+  float: left; }
+
+section p {
+  font-size: 1.25em;
+  line-height: 1.75em;
+  margin-bottom: 2.0em; }
+section .fullImage {
+  /* blur/unblur the images */ }
+  section .fullImage .imageBlur {
+    /*filter: blur(40px);
+    &.frame1 { filter: blur(40px); }
+    &.frame2 { filter: blur(20px); }
+    &.frame3 { filter: blur(0); }
+    &.frame4 { filter: blur(0); }
+    &.frame5 { filter: blur(0); }
+    &.frame6 { filter: blur(20px); }
+    &.frame7 { filter: blur(40px); }
+    &.frame8 { filter: blur(40px); }*/ }
+    section .fullImage .imageBlur.blur {
+      filter: blur(40px); }
+    section .fullImage .imageBlur.unblur {
+      filter: blur(0);
+      transition: 1s ease-out; }
